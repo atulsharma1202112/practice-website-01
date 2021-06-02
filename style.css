@@ -1,0 +1,145 @@
+body {
+    margin: 0;
+}
+.heading {
+    position: absolute;
+    text-align: center;
+    top: 5%;
+    width: 100%;
+}
+
+#particles-js {
+    background: #232526;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */  
+    background: linear-gradient(to right, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    height: 100vh;
+}
+.logo {
+    color: white;
+    float: left;
+    margin-left: 2vw;
+    margin-top: -1vh;
+    padding: 0;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  li {
+    float: left;
+    margin-left: 3vw;
+  }
+  
+  li a {
+    display: block;
+    color: #d3d3d3;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    color: white;
+  }
+  
+  .active {
+    color: white;
+  }
+  .login {
+    float: right;
+    margin-right: 8vw;
+    margin-top: -7vh;
+  }
+
+  .btn1 {
+      margin-top: 0.5vh;
+      background: rgba(36, 59, 65, 0.5);
+      padding: 1vw 3vw 1vw 3vw;
+      color: white;
+      border-radius: 7px;
+      border: 1px solid #6a5acd;
+  }
+
+  .btn1:hover {
+      background: rgba(255,255,255,0.4);
+  }
+
+  .container {
+    position: absolute;
+    width: 60%;
+    height: auto;
+    font-size: 25px;
+    margin-top: 15vh;
+    margin-left: 15vh;
+    color: white;
+  }
+
+  .data {
+      opacity: 0.7;
+      font-size: 24px;
+  }
+
+  .btn2 {
+    background: #4568DC;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #B06AB3, #4568DC);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #B06AB3, #4568DC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    margin-top: 0.5vh;
+    padding: 1vw 5vw 1vw 5vw;
+    color: white;
+    border-radius: 7px;
+    border: none;
+  }
+
+  .btn3 {
+    margin-top: 0.5vh;
+    margin-left: 2vw;
+    padding: 1vw 2vw 1vw 2vw;
+    color: white;
+    border-radius: 7px;
+    border: none;
+    background: #000000;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  }
+
+  i {
+      font-size: 17px;
+  }
+
+  .info {
+    margin-top: 4vw;
+  }
+
+  .big {
+      color: white;
+      font-size: 25px;
+      font-weight: 700;
+  }
+
+  .marg {
+      margin-left: 10vw;
+  }
+
+  .small {
+    color: white;
+    font-size: 15px;
+    margin-top: -2vh;
+  }
+
+  .marg1 {
+    margin-left: 8.3vw;
+}
+
+.article-left {
+    position: absolute;
+    float: left;
+}
+
+.article-right {
+    position: absolute;
+    float: right;
+    margin-left: 60vw;
+}
